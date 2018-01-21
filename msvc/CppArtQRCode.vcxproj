@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ArtQRCodeMain.cpp" />
+    <ClCompile Include="..\src\ArtQRCode\ArtQRCodePlan.cpp" />
+    <ClCompile Include="..\src\ArtQRCode\ArtQRCodeUtils.cpp" />
+    <ClCompile Include="..\src\ArtQRCode\ColorArtQRCodePlan.cpp" />
+    <ClCompile Include="..\src\ArtQRCode\EncodeManager.cpp" />
+    <ClCompile Include="..\src\ArtQRCode\QRCodeCV.cpp" />
+    <ClCompile Include="..\src\ArtQRCode\QRCodeDataAndErr.cpp" />
+    <ClCompile Include="..\src\Basic\CmCv.cpp" />
+    <ClCompile Include="..\src\Basic\CmDefinition.cpp" />
+    <ClCompile Include="..\src\Basic\CmFile.cpp" />
+    <ClCompile Include="..\src\Cluster\CmAPCluster.cpp" />
+    <ClCompile Include="..\src\Cluster\CmColorQua.cpp" />
+    <ClCompile Include="..\src\Cluster\CmGMM.cpp" />
+    <ClCompile Include="..\src\getopt9\getopt.c" />
+    <ClCompile Include="..\src\Illustration\CmEvaluation.cpp" />
+    <ClCompile Include="..\src\Illustration\CmIllu.cpp" />
+    <ClCompile Include="..\src\Illustration\CmShow.cpp" />
+    <ClCompile Include="..\src\qrencode\bitstream.c" />
+    <ClCompile Include="..\src\qrencode\mask.c" />
+    <ClCompile Include="..\src\qrencode\mmask.c" />
+    <ClCompile Include="..\src\qrencode\mqrspec.c" />
+    <ClCompile Include="..\src\qrencode\qrencode.c" />
+    <ClCompile Include="..\src\qrencode\qrinput.c" />
+    <ClCompile Include="..\src\qrencode\qrspec.c" />
+    <ClCompile Include="..\src\qrencode\rscode.c" />
+    <ClCompile Include="..\src\qrencode\split.c" />
+    <ClCompile Include="..\src\Saliency\CmSalCut.cpp" />
+    <ClCompile Include="..\src\Saliency\CmSaliencyGC.cpp" />
+    <ClCompile Include="..\src\Saliency\CmSaliencyRC.cpp" />
+    <ClCompile Include="..\src\Segmentation\EfficientGraphBased\segment-image.cpp" />
+    <ClCompile Include="..\src\Segmentation\MeanShift\ms.cpp" />
+    <ClCompile Include="..\src\Segmentation\MeanShift\msImageProcessor.cpp" />
+    <ClCompile Include="..\src\Segmentation\MeanShift\msSys.cpp" />
+    <ClCompile Include="..\src\Segmentation\MeanShift\msSysPrompt.cpp" />
+    <ClCompile Include="..\src\Segmentation\MeanShift\RAList.cpp" />
+    <ClCompile Include="..\src\Segmentation\MeanShift\rlist.cpp" />
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CGraph.cpp" />
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CutGrid.cpp" />
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CutPlanar.cpp" />
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CutSegment.cpp" />
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CutShape.cpp" />
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\DynPath.cpp" />
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\Planar.cpp" />
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\PlanarException.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ArtQRCode\ArtQRCodePlan.h" />
+    <ClInclude Include="..\src\ArtQRCode\ArtQRCodeUtils.h" />
+    <ClInclude Include="..\src\ArtQRCode\ColorArtQRCodePlan.h" />
+    <ClInclude Include="..\src\ArtQRCode\EncodeManager.h" />
+    <ClInclude Include="..\src\ArtQRCode\QRCodeCV.h" />
+    <ClInclude Include="..\src\ArtQRCode\QRCodeDataAndErr.h" />
+    <ClInclude Include="..\src\ArtQRCode\ArtQRCode.h" />
+    <ClInclude Include="..\src\Basic\CmCv.h" />
+    <ClInclude Include="..\src\Basic\CmDefinition.h" />
+    <ClInclude Include="..\src\Basic\CmFile.h" />
+    <ClInclude Include="..\src\Basic\CmTimer.h" />
+    <ClInclude Include="..\src\Cluster\CmAPCluster.h" />
+    <ClInclude Include="..\src\Cluster\CmColorQua.h" />
+    <ClInclude Include="..\src\Cluster\CmGMM.h" />
+    <ClInclude Include="..\src\CmLib.h" />
+    <ClInclude Include="..\src\getopt9\getopt.h" />
+    <ClInclude Include="..\src\getopt9\tailor.h" />
+    <ClInclude Include="..\src\Illustration\CmEvaluation.h" />
+    <ClInclude Include="..\src\Illustration\CmIllu.h" />
+    <ClInclude Include="..\src\Illustration\CmShow.h" />
+    <ClInclude Include="..\src\qrencode\bitstream.h" />
+    <ClInclude Include="..\src\qrencode\config.h" />
+    <ClInclude Include="..\src\qrencode\mask.h" />
+    <ClInclude Include="..\src\qrencode\mmask.h" />
+    <ClInclude Include="..\src\qrencode\mqrspec.h" />
+    <ClInclude Include="..\src\qrencode\qrencode.h" />
+    <ClInclude Include="..\src\qrencode\qrencode_inner.h" />
+    <ClInclude Include="..\src\qrencode\qrinput.h" />
+    <ClInclude Include="..\src\qrencode\qrspec.h" />
+    <ClInclude Include="..\src\qrencode\rscode.h" />
+    <ClInclude Include="..\src\qrencode\split.h" />
+    <ClInclude Include="..\src\Saliency\CmSalCut.h" />
+    <ClInclude Include="..\src\Saliency\CmSaliencyGC.h" />
+    <ClInclude Include="..\src\Saliency\CmSaliencyRC.h" />
+    <ClInclude Include="..\src\Segmentation\EfficientGraphBased\disjoint-set.h" />
+    <ClInclude Include="..\src\Segmentation\EfficientGraphBased\segment-graph.h" />
+    <ClInclude Include="..\src\Segmentation\EfficientGraphBased\segment-image.h" />
+    <ClInclude Include="..\src\Segmentation\Maxflow\block.h" />
+    <ClInclude Include="..\src\Segmentation\Maxflow\graph.h" />
+    <ClInclude Include="..\src\Segmentation\MeanShift\ms.h" />
+    <ClInclude Include="..\src\Segmentation\MeanShift\msImageProcessor.h" />
+    <ClInclude Include="..\src\Segmentation\MeanShift\msSys.h" />
+    <ClInclude Include="..\src\Segmentation\MeanShift\RAList.h" />
+    <ClInclude Include="..\src\Segmentation\MeanShift\rlist.h" />
+    <ClInclude Include="..\src\Segmentation\MeanShift\tdef.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\BlockAllocator.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CGraph.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutGrid.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutPlanar.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutPlanarDefs.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutSegment.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutShape.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\DynPath.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\Planar.h" />
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\PlanarException.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1AD3E610-BE23-4191-8606-590121587743}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CppArtQRCode</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+    <IncludePath>$(VCInstallDir)UnitTest\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VCInstallDir)UnitTest\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>pthreadVC2.lib;pthreadVCE2.lib;pthreadVSE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libglog.lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>pthreadVC2.lib;libglog.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

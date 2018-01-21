@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\qrencode">
+      <UniqueIdentifier>{6defd672-4072-4196-946f-05ce13dd4d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\qrencode">
+      <UniqueIdentifier>{f996c971-3e11-431b-b836-eb9b54f86fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\getopt9">
+      <UniqueIdentifier>{5f000ebb-08ed-4bd5-9c4a-58825dbeeb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\getopt">
+      <UniqueIdentifier>{3ac06c8b-c973-41be-bb91-44734c884d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Saliency">
+      <UniqueIdentifier>{d63d857c-2db2-49f6-8851-6372b0462805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Saliency">
+      <UniqueIdentifier>{6871b221-0897-4c08-8f6e-b7fd71a9dce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Basic">
+      <UniqueIdentifier>{c2997b9a-a32c-4001-9cc9-a2f9b15c04f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Basic">
+      <UniqueIdentifier>{366c3d67-3e0a-4d95-8fdc-3a77a198d670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Segmentation">
+      <UniqueIdentifier>{8460ea9c-11bd-425e-a09d-0b772c21c82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Segmentation\EfficientGraphBased">
+      <UniqueIdentifier>{90c68a10-2622-4814-8c18-de541af917e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Segmentation\Maxflow">
+      <UniqueIdentifier>{cc86f8a4-ad08-4137-af1e-71b12813d25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Segmentation\MeanShift">
+      <UniqueIdentifier>{8f8ca8f0-d570-40ab-9e77-b0a43c2d45b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Segmentation\PlanarCut">
+      <UniqueIdentifier>{b7ea3767-c8ae-4a9a-9275-07709513bf81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Segmentation">
+      <UniqueIdentifier>{1f69eed2-ad7e-4573-8550-ebb46b28f201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Segmentation\EfficientGraphBased">
+      <UniqueIdentifier>{f92d9275-e7a4-43df-95bc-ba8aef4619aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Segmentation\Maxflow">
+      <UniqueIdentifier>{0500d9a4-e9a0-4727-b0b9-87814781e538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Segmentation\MeanShift">
+      <UniqueIdentifier>{be8344ce-d474-4090-9961-3ce89e5035dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Segmentation\PlanarCut">
+      <UniqueIdentifier>{f3cb95f8-37fb-42ae-8058-e832fe66c1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Illustration">
+      <UniqueIdentifier>{8c0a3468-6de2-4f5d-b120-7442f8931944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Illustration">
+      <UniqueIdentifier>{bbaa7510-11a4-4c9f-994a-0606a1982fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Cluster">
+      <UniqueIdentifier>{6a7ff228-c1ff-4643-8196-9a0c7cea9843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cluster">
+      <UniqueIdentifier>{9c89f9e2-4032-439a-8a3b-b3c3d29a274e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ArtQRCode">
+      <UniqueIdentifier>{fa0d483a-0c77-42de-97b3-d212d3696e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ArtQRCode">
+      <UniqueIdentifier>{097efb1d-46cf-4925-808c-5dcf81cad7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="测试">
+      <UniqueIdentifier>{639e44f1-da35-4ef9-85f5-3eb02ef0f0c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\qrencode\qrencode.c">
+      <Filter>源文件\qrencode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qrencode\bitstream.c">
+      <Filter>源文件\qrencode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qrencode\mask.c">
+      <Filter>源文件\qrencode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qrencode\mmask.c">
+      <Filter>源文件\qrencode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qrencode\mqrspec.c">
+      <Filter>源文件\qrencode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qrencode\qrinput.c">
+      <Filter>源文件\qrencode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qrencode\qrspec.c">
+      <Filter>源文件\qrencode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qrencode\rscode.c">
+      <Filter>源文件\qrencode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qrencode\split.c">
+      <Filter>源文件\qrencode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\getopt9\getopt.c">
+      <Filter>源文件\getopt9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtQRCodeMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Saliency\CmSalCut.cpp">
+      <Filter>源文件\Saliency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Saliency\CmSaliencyGC.cpp">
+      <Filter>源文件\Saliency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Saliency\CmSaliencyRC.cpp">
+      <Filter>源文件\Saliency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Basic\CmCv.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Basic\CmDefinition.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Basic\CmFile.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\EfficientGraphBased\segment-image.cpp">
+      <Filter>源文件\Segmentation\EfficientGraphBased</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\MeanShift\ms.cpp">
+      <Filter>源文件\Segmentation\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\MeanShift\msImageProcessor.cpp">
+      <Filter>源文件\Segmentation\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\MeanShift\msSys.cpp">
+      <Filter>源文件\Segmentation\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\MeanShift\msSysPrompt.cpp">
+      <Filter>源文件\Segmentation\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\MeanShift\RAList.cpp">
+      <Filter>源文件\Segmentation\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\MeanShift\rlist.cpp">
+      <Filter>源文件\Segmentation\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CGraph.cpp">
+      <Filter>源文件\Segmentation\PlanarCut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CutGrid.cpp">
+      <Filter>源文件\Segmentation\PlanarCut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CutPlanar.cpp">
+      <Filter>源文件\Segmentation\PlanarCut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CutSegment.cpp">
+      <Filter>源文件\Segmentation\PlanarCut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\CutShape.cpp">
+      <Filter>源文件\Segmentation\PlanarCut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\DynPath.cpp">
+      <Filter>源文件\Segmentation\PlanarCut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\Planar.cpp">
+      <Filter>源文件\Segmentation\PlanarCut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Segmentation\PlanarCut\code\PlanarException.cpp">
+      <Filter>源文件\Segmentation\PlanarCut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Illustration\CmEvaluation.cpp">
+      <Filter>源文件\Illustration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Illustration\CmIllu.cpp">
+      <Filter>源文件\Illustration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Illustration\CmShow.cpp">
+      <Filter>源文件\Illustration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Cluster\CmAPCluster.cpp">
+      <Filter>源文件\Cluster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Cluster\CmColorQua.cpp">
+      <Filter>源文件\Cluster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Cluster\CmGMM.cpp">
+      <Filter>源文件\Cluster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtQRCode\QRCodeCV.cpp">
+      <Filter>源文件\ArtQRCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtQRCode\ArtQRCodePlan.cpp">
+      <Filter>源文件\ArtQRCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtQRCode\ArtQRCodeUtils.cpp">
+      <Filter>源文件\ArtQRCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtQRCode\EncodeManager.cpp">
+      <Filter>源文件\ArtQRCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtQRCode\QRCodeDataAndErr.cpp">
+      <Filter>源文件\ArtQRCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtQRCode\ColorArtQRCodePlan.cpp">
+      <Filter>源文件\ArtQRCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\qrencode\qrencode.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\bitstream.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\config.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\mask.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\mmask.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\mqrspec.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\qrencode_inner.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\qrinput.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\qrspec.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\rscode.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qrencode\split.h">
+      <Filter>头文件\qrencode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\getopt9\getopt.h">
+      <Filter>头文件\getopt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\getopt9\tailor.h">
+      <Filter>头文件\getopt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Saliency\CmSalCut.h">
+      <Filter>头文件\Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Saliency\CmSaliencyGC.h">
+      <Filter>头文件\Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Saliency\CmSaliencyRC.h">
+      <Filter>头文件\Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Basic\CmCv.h">
+      <Filter>头文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Basic\CmDefinition.h">
+      <Filter>头文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Basic\CmFile.h">
+      <Filter>头文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Basic\CmTimer.h">
+      <Filter>头文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CmLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\EfficientGraphBased\disjoint-set.h">
+      <Filter>头文件\Segmentation\EfficientGraphBased</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\EfficientGraphBased\segment-graph.h">
+      <Filter>头文件\Segmentation\EfficientGraphBased</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\EfficientGraphBased\segment-image.h">
+      <Filter>头文件\Segmentation\EfficientGraphBased</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\Maxflow\block.h">
+      <Filter>头文件\Segmentation\Maxflow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\Maxflow\graph.h">
+      <Filter>头文件\Segmentation\Maxflow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\MeanShift\ms.h">
+      <Filter>头文件\Segmentation\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\MeanShift\msImageProcessor.h">
+      <Filter>头文件\Segmentation\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\MeanShift\msSys.h">
+      <Filter>头文件\Segmentation\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\MeanShift\RAList.h">
+      <Filter>头文件\Segmentation\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\MeanShift\rlist.h">
+      <Filter>头文件\Segmentation\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\MeanShift\tdef.h">
+      <Filter>头文件\Segmentation\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\BlockAllocator.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CGraph.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutGrid.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutPlanar.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutPlanarDefs.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutSegment.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\CutShape.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\DynPath.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\Planar.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Segmentation\PlanarCut\code\PlanarException.h">
+      <Filter>头文件\Segmentation\PlanarCut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Illustration\CmEvaluation.h">
+      <Filter>头文件\Illustration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Illustration\CmIllu.h">
+      <Filter>头文件\Illustration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Illustration\CmShow.h">
+      <Filter>头文件\Illustration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Cluster\CmAPCluster.h">
+      <Filter>头文件\Cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Cluster\CmColorQua.h">
+      <Filter>头文件\Cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Cluster\CmGMM.h">
+      <Filter>头文件\Cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ArtQRCode\QRCodeCV.h">
+      <Filter>头文件\ArtQRCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ArtQRCode\ArtQRCodePlan.h">
+      <Filter>头文件\ArtQRCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ArtQRCode\ArtQRCodeUtils.h">
+      <Filter>头文件\ArtQRCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ArtQRCode\EncodeManager.h">
+      <Filter>头文件\ArtQRCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ArtQRCode\QRCodeDataAndErr.h">
+      <Filter>头文件\ArtQRCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ArtQRCode\ArtQRCode.h">
+      <Filter>头文件\ArtQRCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ArtQRCode\ColorArtQRCodePlan.h">
+      <Filter>头文件\ArtQRCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
